@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  color:  #120c36;
+  text-shadow: 0 0 3px black;
+}
+
+body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;  
+}
+
+.navbar-default .navbar-brand{
+  color: mediumpurple;
+  text-shadow: 0 0 1px black;
+  font-size: 2.5em;
+
+}
+.navbar{
+  background-color:#191947;
+  opacity: 90% ;
+
+}
+.navbar-default .navbar-toggle{
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color:mediumpurple;
+}
+
+.row{
+  margin:0 ;
+padding: 20px ;
+width: 100%;
+  
+}
+.row .container-fluid{
+    /*position: relative;
+    top: 0;*/
+    width: 100%;
+    overflow: none;
+    background-color: grey;
+     opacity: 85%;
+}
+#content-header{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  border: 4px solid black;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  margin: 0;
+ 
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+  overflow: none;
+}
+
+#content{
+  height: auto;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-header{
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
+
+}
+#header1 {
+  background-color: #621514;
+  color: white;
+  
+}
+
+#header2{
+  color: white;
+  background-color:   #458b74;
+}
+#header3{
+  background-color:   #ffe4c4;
+  color: #cd2626 ;
+}
+
+
