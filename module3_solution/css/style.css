@@ -12,8 +12,18 @@ h1 {
 body{
   padding:50px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;  
-}
+  min-height: 2000px;
 
+}
+body::before {
+  display: table;
+  content: ' ';
+  height:125px; /* or whatever */
+}
+.navbar-header button.navbar-toggle{
+  clear:both;
+
+}
 .navbar-default .navbar-brand{
   color: mediumpurple;
   text-shadow: 0 0 1px black;
@@ -41,6 +51,16 @@ body{
   color:mediumpurple;
 }
 
+#collapsable-nav{
+  clear: both;
+}
+
+#nav-list{
+  clear: both;
+}
+#collapsable-nav li{
+  clear: both;
+}
 .row{
   margin:0 ;
 padding: 20px ;
@@ -50,12 +70,11 @@ width: 100%;
 .nav>li>a {
 text-align: center;
 font-size: larger;
-
+clear: both;
 }
 
+
 .row .container-fluid{
-    /*position: relative;
-    top: 0;*/
     width: 100%;
     overflow: none;
     background-color: grey;
